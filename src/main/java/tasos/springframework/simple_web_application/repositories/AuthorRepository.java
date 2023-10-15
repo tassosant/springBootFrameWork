@@ -1,0 +1,8 @@
+package tasos.springframework.simple_web_application.repositories;
+
+import org.springframework.data.repository.CrudRepository;
+import tasos.springframework.simple_web_application.domain.Author;
+
+public interface AuthorRepository extends CrudRepository<Author,Long> {
+
+}
