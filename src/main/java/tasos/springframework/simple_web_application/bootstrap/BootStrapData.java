@@ -55,6 +55,6 @@ public class BootStrapData implements CommandLineRunner {
         publisherRepository.save(publisher);
 
         authorRepository.save(rod);
-        bookRepository.save(ddd);
+        bookRepository.save(noEJB);
     }
 }
